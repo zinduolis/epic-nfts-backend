@@ -23,3 +23,22 @@ Minted NFT #1
 Minted NFT #2
 
 https://testnets.opensea.io/assets/goerli/0x13052A9D3C60f1dC662904252168734603690a4C
+
+13/10/22 14:05
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
+Contract deployed to:  0x62eb956971259A65cf1d59b033cef28F515783bD
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
+Contract deployed to:  0xe050b68B7c8C4bB5a8743b25046f0aBdC7d82f98
+
+13/10/22 15:09
+
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
+Contract deployed to:  0x436ADb52B1d239db178Eb0BC23d0D3A09ecfDC37
+
+13/10/22 16:00
+
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
+Compiled 1 Solidity file successfully
+Contract deployed to:  0x14D363F2bbD682d91074C459C20D6Ea6f3FAfbad
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
+Contract deployed to:  0x87144f67514C5E797c1D43aA201207d3FB20F167
