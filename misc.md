@@ -24,6 +24,8 @@ Minted NFT #2
 
 https://testnets.opensea.io/assets/goerli/0x13052A9D3C60f1dC662904252168734603690a4C
 
+
+
 13/10/22 14:05
 tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
 Contract deployed to:  0x62eb956971259A65cf1d59b033cef28F515783bD
@@ -42,3 +44,31 @@ Compiled 1 Solidity file successfully
 Contract deployed to:  0x14D363F2bbD682d91074C459C20D6Ea6f3FAfbad
 tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
 Contract deployed to:  0x87144f67514C5E797c1D43aA201207d3FB20F167
+
+13/10/22 20:00
+
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
+Compiled 1 Solidity file successfully
+Contract deployed to:  0x80aBd5A3E1A0Ee3474ED9bef1bC36301792C9068
+
+https://testnet.rarible.com/token/0x80aBd5A3E1A0Ee3474ED9bef1bC36301792C9068:0
+
+16/10/22 16:24
+
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/deploy.js --network goerli
+Contract deployed to:  0x98e23Be07e88d25bf922F01D856B5e31f2E72741
+
+https://testnets.opensea.io/assets/goerli/0x98e23Be07e88d25bf922F01D856B5e31f2E72741/0
+https://testnet.rarible.com/token/0x98e23Be07e88d25bf922F01D856B5e31f2E72741:0
+
+16/10/22 17:00
+
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/deploy.js --network goerli
+Compiled 1 Solidity file successfully
+Contract deployed to:  0x16a2E4eB093d3460Ae518ec88A4B6CE7992DdD48
+
+16/10/22 21:02
+
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
+Contract deployed to:  0x441C696a0bc8c50218d03720D8CB9200Fe81d285
+https://testnet.rarible.com/token/0x441C696a0bc8c50218d03720D8CB9200Fe81d285:0
