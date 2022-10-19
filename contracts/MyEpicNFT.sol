@@ -70,7 +70,16 @@ contract MyEpicNFT is ERC721URIStorage {
         console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
         _tokenIds.increment();
         emit NewEpicNFTMinted(msg.sender, newItemId);
-        // console.log("Block difficulty: %s, Block timestamp: %s", block.difficulty, block.timestamp);
+    }
+
+    function makeRandomNFTFromIPFS(string memory _ipfsLink) public {
+        require(getTotalNFTsMintedSoFar() < nftsQuantityAllowed, "Just 50 NFTs can be minted on this contract");
+        uint256 newItemId = _tokenIds.current();
+        _safeMint(msg.sender, newItemId);
+        _setTokenURI(newItemId, _ipfsLink);
+        console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
+        _tokenIds.increment();
+        emit NewEpicNFTMinted(msg.sender, newItemId);
     }
 }
 

@@ -72,3 +72,15 @@ Contract deployed to:  0x16a2E4eB093d3460Ae518ec88A4B6CE7992DdD48
 tests-MBP:epic-nfts alfred$ npx hardhat run scripts/run.js --network goerli
 Contract deployed to:  0x441C696a0bc8c50218d03720D8CB9200Fe81d285
 https://testnet.rarible.com/token/0x441C696a0bc8c50218d03720D8CB9200Fe81d285:0
+
+17/10/22 11:50
+
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/deploy.js --network goerli
+Compiled 1 Solidity file successfully
+Contract deployed to:  0x81927EC8E60AB44D1BE4319832cB226389cE6cAa
+
+19/10/22 22:05
+
+https://testnet.rarible.com/token/0x01ec00B180Cd7748E099C3487CD61dFa552aD13b:0
+
+https://testnets.opensea.io/assets/goerli/0x01ec00B180Cd7748E099C3487CD61dFa552aD13b/0
