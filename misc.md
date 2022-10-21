@@ -82,5 +82,9 @@ Contract deployed to:  0x81927EC8E60AB44D1BE4319832cB226389cE6cAa
 19/10/22 22:05
 
 https://testnet.rarible.com/token/0x01ec00B180Cd7748E099C3487CD61dFa552aD13b:0
-
 https://testnets.opensea.io/assets/goerli/0x01ec00B180Cd7748E099C3487CD61dFa552aD13b/0
+
+21/10/22 21:31
+
+tests-MBP:epic-nfts alfred$ npx hardhat run scripts/deploy.js --network goerli
+Contract deployed to:  0x6E71599bfaC67F72f1a5ac2A4193D4Cd91Dea40c
