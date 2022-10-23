@@ -11,6 +11,10 @@ const main = async () => {
     let txn = await nftContract.makeRandomNFTFromIPFS("https://gateway.pinata.cloud/ipfs/QmQjK5jNyeY3BHySKzkHkiK66pdm5gEdnJWQxDkZX7XrbS");
     await txn.wait();
 
+    txn = await nftContract.tokenURI(0);
+
+    console.log("Token json: ",txn);
+
     // txn = await nftContract.makeAnEpicNFT();
     // await txn.wait();
 };
